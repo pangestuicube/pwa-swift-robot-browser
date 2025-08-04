@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.10.4 on win32)" generated="2025-08-05T00:40:59.174709" rpa="false" schemaversion="5">
+<suite id="s1" name="Swift-Pwa" source="D:\Icube\R&amp;D\robot-browserLibrary\swift-pwa">
+<suite id="s1-s1" name="Test" source="D:\Icube\R&amp;D\robot-browserLibrary\swift-pwa\test">
+<suite id="s1-s1-s1" name="Login" source="D:\Icube\R&amp;D\robot-browserLibrary\swift-pwa\test\login.robot">
+<test id="s1-s1-s1-t1" name="Login With Valid Credentials" line="14">
+<kw name="Start Test Setup" owner="setup" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-08-05T00:41:00.042143" level="INFO">{"browser": "webkit", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\Icube\\R&amp;D\\robot-browserLibrary\\swift-pwa\\results\\browser\\traces\\a194e369-8737-42d0-b29a-ffcdf714c4da"}</msg>
+<msg time="2025-08-05T00:41:00.746094" level="INFO">Successfully created browser with options: {"browser":"webkit","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\Icube\\R&amp;D\\robot-browserLibrary\\swift-pwa\\results\\browser\\traces\\a194e369-8737-42d0-b29a-ffcdf714c4da"}</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${HEADLESS}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-08-05T00:41:00.040618" elapsed="0.705476"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-08-05T00:41:00.748290" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-08-05T00:41:00.816075" level="INFO">Successfully created context. </msg>
+<msg time="2025-08-05T00:41:00.816075" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-08-05T00:41:00.747289" elapsed="0.069774"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-08-05T00:41:02.126438" level="INFO">Successfully initialized new page object and opened url: https://pwa.getswift.asia</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-08-05T00:41:00.817063" elapsed="1.310356"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2025-08-05T00:41:02.218758" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>width=1920</arg>
+<arg>height=1080</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2025-08-05T00:41:02.127419" elapsed="0.092310"/>
+</kw>
+<doc>Membuka browser &amp; membuka halaman homepage sebelum test</doc>
+<status status="PASS" start="2025-08-05T00:41:00.039622" elapsed="2.180107"/>
+</kw>
+<kw name="Go To Login Page" owner="home_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-05T00:41:03.437388" level="INFO">Waited for Element with selector xpath=//a[contains(@class,'swift-login-register-link')] at state enabled</msg>
+<arg>selector=${HEADER_LINK_TO_LOGIN}</arg>
+<arg>state=enabled</arg>
+<arg>timeout=${TIMEOUT_MEDIUM}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-05T00:41:02.222733" elapsed="1.215654"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-08-05T00:41:03.439385" level="INFO">Clicks the element 'xpath=//a[contains(@class,'swift-login-register-link')]'.</msg>
+<arg>selector=${HEADER_LINK_TO_LOGIN}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-08-05T00:41:03.438387" elapsed="0.225433"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-05T00:41:04.696829" level="INFO">Waited for Element with selector xpath=//input[@type='text'][@name='username'] at state visible</msg>
+<arg>selector=${LOGIN_EMAIL_INPUT}</arg>
+<arg>state=visible</arg>
+<arg>timeout=${TIMEOUT_MEDIUM}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-05T00:41:03.664788" elapsed="1.032041"/>
+</kw>
+<doc>Navigate to the login page from the homepage</doc>
+<status status="PASS" start="2025-08-05T00:41:02.220760" elapsed="2.476069"/>
+</kw>
+<kw name="User Login" owner="login_page">
+<kw name="Insert User Login Form" owner="login_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-05T00:41:04.744273" level="INFO">Waited for Element with selector xpath=//input[@type='text'][@name='username'] at state enabled</msg>
+<arg>selector=${LOGIN_EMAIL_INPUT}</arg>
+<arg>state=enabled</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-05T00:41:04.698828" elapsed="0.046444"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-08-05T00:41:04.746785" level="INFO">Fills the text 'demo@icube.us' in the given field.</msg>
+<arg>selector=${LOGIN_EMAIL_INPUT}</arg>
+<arg>txt=${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-08-05T00:41:04.745272" elapsed="0.043967"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-05T00:41:04.819665" level="INFO">Waited for Element with selector xpath=//input[@type='password'] at state enabled</msg>
+<arg>selector=${LOGIN_PASSWORD_INPUT}</arg>
+<arg>state=enabled</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-05T00:41:04.789239" elapsed="0.030426"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-08-05T00:41:04.820663" level="INFO">Fills the text 'Password123' in the given field.</msg>
+<arg>selector=${LOGIN_PASSWORD_INPUT}</arg>
+<arg>txt=${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-08-05T00:41:04.819665" elapsed="0.073467"/>
+</kw>
+<arg>${email}</arg>
+<arg>${password}</arg>
+<doc>Insert user credentials</doc>
+<status status="PASS" start="2025-08-05T00:41:04.698828" elapsed="0.195309"/>
+</kw>
+<kw name="Submit Login Form" owner="login_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-05T00:41:04.946039" level="INFO">Waited for Element with selector xpath=//button[@id='swiftLoginButton'] at state enabled</msg>
+<arg>selector=${LOGIN_BUTTON}</arg>
+<arg>state=enabled</arg>
+<arg>timeout=${TIMEOUT_MEDIUM}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-05T00:41:04.895139" elapsed="0.050900"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-08-05T00:41:04.947048" level="INFO">Clicks the element 'xpath=//button[@id='swiftLoginButton']'.</msg>
+<arg>selector=${LOGIN_BUTTON}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-08-05T00:41:04.946039" elapsed="0.230238"/>
+</kw>
+<doc>Submit the login form</doc>
+<status status="PASS" start="2025-08-05T00:41:04.894137" elapsed="0.282140"/>
+</kw>
+<return>
+<value>${True}</value>
+<status status="PASS" start="2025-08-05T00:41:05.177279" elapsed="0.000000"/>
+</return>
+<arg>email=${USER_EMAIL}</arg>
+<arg>password=${USER_PASSWORD}</arg>
+<doc>Perform user login with provided credentials</doc>
+<status status="PASS" start="2025-08-05T00:41:04.697829" elapsed="0.479450"/>
+</kw>
+<kw name="Verify Login Success" owner="login_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-05T00:41:07.649093" level="INFO">Waited for Element with selector xpath=//button[@id='swiftLoginButton'] at state hidden</msg>
+<arg>selector=${LOGIN_BUTTON}</arg>
+<arg>state=hidden</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-05T00:41:05.178283" elapsed="2.470810"/>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-08-05T00:41:07.658668" level="INFO">Waited for Element with selector xpath=//div[contains(@class,'myaccount-menu')] at state visible</msg>
+<arg>selector=${MY_ACCOUNT_MENU}</arg>
+<arg>state=visible</arg>
+<arg>timeout=${TIMEOUT_MEDIUM}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-08-05T00:41:07.650092" elapsed="0.008576"/>
+</kw>
+<msg time="2025-08-05T00:41:07.659668" level="INFO">${is_visible} = True</msg>
+<var>${is_visible}</var>
+<arg>Wait For Elements State</arg>
+<arg>selector=${MY_ACCOUNT_MENU}</arg>
+<arg>state=visible</arg>
+<arg>timeout=${TIMEOUT_MEDIUM}</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2025-08-05T00:41:07.650092" elapsed="0.009576"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${is_visible}</arg>
+<arg>User is not logged in successfully</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2025-08-05T00:41:07.659668" elapsed="0.001002"/>
+</kw>
+<doc>Validate that the user is logged in successfully</doc>
+<status status="PASS" start="2025-08-05T00:41:05.177279" elapsed="2.484397"/>
+</kw>
+<kw name="End Test Teardown" owner="setup" type="TEARDOWN">
+<kw name="Delete All Cookies" owner="Browser">
+<msg time="2025-08-05T00:41:07.688779" level="INFO">All cookies deleted.</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Deletes all cookies from the currently active browser context.</doc>
+<status status="PASS" start="2025-08-05T00:41:07.663768" elapsed="0.026011"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-08-05T00:41:07.745641" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-05T00:41:07.690782" elapsed="0.055377"/>
+</kw>
+<doc>Menutup browser setelah test selesai</doc>
+<status status="PASS" start="2025-08-05T00:41:07.662673" elapsed="0.084498"/>
+</kw>
+<doc>Test case to verify login with valid credentials</doc>
+<status status="PASS" start="2025-08-05T00:41:00.031358" elapsed="7.716845"/>
+</test>
+<doc>Test suite for login functionality of Swift PWA</doc>
+<status status="PASS" start="2025-08-05T00:40:59.221806" elapsed="8.625654"/>
+</suite>
+<status status="PASS" start="2025-08-05T00:40:59.215805" elapsed="8.678178"/>
+</suite>
+<status status="PASS" start="2025-08-05T00:40:59.181684" elapsed="8.720483"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Swift-Pwa">Swift-Pwa</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test">Swift-Pwa.Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Login">Swift-Pwa.Test.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

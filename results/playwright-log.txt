@@ -1,0 +1,91 @@
+{"level":30,"time":"2025-08-04T17:40:59.909Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Listening on 63725"}
+(node:8700) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-08-04T17:41:00.030Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-04T17:41:00.030Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-04T17:41:00.038Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-04T17:41:00.038Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-04T17:41:00.045Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-04T17:41:00.744Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Adding browser to stack: webkit, version: 17.4"}
+{"level":30,"time":"2025-08-04T17:41:00.745Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-04T17:41:00.745Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-04T17:41:00.751Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-04T17:41:00.752Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-04T17:41:00.752Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Trace file: "}
+{"level":30,"time":"2025-08-04T17:41:00.814Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Changed active context"}
+{"level":30,"time":"2025-08-04T17:41:00.814Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-04T17:41:00.820Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-04T17:41:00.821Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-04T17:41:01.251Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-04T17:41:01.251Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Changed active page"}
+{"level":30,"time":"2025-08-04T17:41:02.125Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-04T17:41:02.129Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2025-08-04T17:41:02.217Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2025-08-04T17:41:02.227Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:02.229Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(@class,'swift-login-register-link')] in page."}
+{"level":30,"time":"2025-08-04T17:41:03.436Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:03.441Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-04T17:41:03.441Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(@class,'swift-login-register-link')] in page."}
+{"level":30,"time":"2025-08-04T17:41:03.663Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method click"}
+{"level":30,"time":"2025-08-04T17:41:03.666Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:03.666Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='text'][@name='username'] in page."}
+{"level":30,"time":"2025-08-04T17:41:04.695Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:04.700Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:04.700Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='text'][@name='username'] in page."}
+{"level":30,"time":"2025-08-04T17:41:04.743Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:04.749Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-04T17:41:04.749Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='text'][@name='username'] in page."}
+{"level":30,"time":"2025-08-04T17:41:04.788Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-04T17:41:04.792Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:04.792Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='password'] in page."}
+{"level":30,"time":"2025-08-04T17:41:04.818Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:04.822Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-04T17:41:04.822Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='password'] in page."}
+{"level":30,"time":"2025-08-04T17:41:04.892Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-04T17:41:04.896Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:04.896Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//button[@id='swiftLoginButton'] in page."}
+{"level":30,"time":"2025-08-04T17:41:04.944Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:04.948Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-04T17:41:04.948Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//button[@id='swiftLoginButton'] in page."}
+{"level":30,"time":"2025-08-04T17:41:05.175Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method click"}
+{"level":30,"time":"2025-08-04T17:41:05.179Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:05.179Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//button[@id='swiftLoginButton'] in page."}
+{"level":30,"time":"2025-08-04T17:41:07.647Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:07.652Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:07.652Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,'myaccount-menu')] in page."}
+{"level":30,"time":"2025-08-04T17:41:07.657Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-04T17:41:07.692Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-04T17:41:07.710Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Removed page=d39c65a6-4302-4402-8b7b-a2e0d6d08428 from context=d796843e-ec1e-429d-a365-5ea34c216e1d page stack"}
+{"level":30,"time":"2025-08-04T17:41:07.744Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-08-04T17:41:07.845Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-04T17:41:07.845Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\pange\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2025-08-04T17:41:07.891Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-04T17:41:07.891Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-04T17:41:08.662Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-04T17:41:08.662Z","pid":8700,"hostname":"Lenovo-Pangestu","msg":"End of node method closeAllBrowsers"}
