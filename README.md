@@ -6,22 +6,7 @@ Dokumentasi ini menjelaskan cara menjalankan automation test menggunakan **Robot
 
 ## 📁 Struktur Test
 
-├── pages/ ← Keyword spesifik untuk setiap halaman
-│ 
-├── resources/
-│ ├── locators/← Locator elemen pada setiap halaman
-│ └── testdata.py ← Berisi variabel data umum (email, password, dsb) yang digunakan untuk testing
-│
-├── results/ ← Folder output hasil eksekusi test
-│ └── [log.html, report.html, output.xml]
-│
-├── setup/
-│ └── setup.resource ← Keyword untuk inisialisasi test (open browser, go to URL, dll)
-│
-├── test/ ← Folder yang berisi test scenario untuk setiap module
-│
-├── requirements.txt ← File untuk install dependencies Python
-└── README.md
+![alt text](image.png)
 
 ---
 
