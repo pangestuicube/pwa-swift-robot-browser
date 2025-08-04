@@ -4,9 +4,9 @@ Dokumentasi ini menjelaskan cara menjalankan automation test menggunakan **Robot
 
 ---
 
-## 📁 Struktur Test
+## 📁 Struktur Folder 
 
-![alt text](image.png)
+<img width="656" height="276" alt="image" src="https://github.com/user-attachments/assets/3b44aa6e-be5d-4d1a-bab6-146a870fd735" />
 
 ---
 
